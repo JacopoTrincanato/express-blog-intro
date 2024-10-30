@@ -44,4 +44,6 @@ function index(req, res) {
       data: posts,
       count: posts.length
     })
-  }
+}
+
+module.exports= index
