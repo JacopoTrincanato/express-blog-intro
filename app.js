@@ -10,7 +10,7 @@ const express = require('express');
 const app = express();
 
 const host = 'http://127.0.0.1'
-const port = 3000
+const port = 3005
 
 //accedo al server 
 app.listen(port, () => {
