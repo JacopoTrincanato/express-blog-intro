@@ -7,7 +7,7 @@ fetch('/posts')
   listItem.innerHTML = `
     <h2>${post.titolo}</h2>
     <p>${post.contenuto}</p>
-    <img src="${post.immagine}" alt="${post.titolo}" width="200">
+    <img src="${post.immagine}" alt="${post.titolo}">
     <p><strong>Tags:</strong> ${post.tags.join(', ')}</p>
   `;
   postList.appendChild(listItem);
