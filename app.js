@@ -22,12 +22,6 @@ app.use(express.static('public'))
 app.get('/', (req, res)=> {
     const markup = `
     <h1>Benvenuto nel mio blog</h1>
-    <img src="/img/javascript-a-cosa-serve.webp" alt="Javascript">
-    <img src="/img/Che-cose-HTML-Le-basi-di-Hypertext-Markup-Language.webp" alt="HTML">
-    <img src="/img/Cos-e-il-css-768x403.webp" alt="CSS">
-    <img src="/img/Caratteristiche-e-Differenza-tra-front-end-e-back-end-per-un-CMS.jpg" alt="FrontendsVSBackend">
-    <img src="/img/immagine_react.jpg" alt="React">
-    <img src="/img/node_express_img.jpg" alt="Node_express">
     `
 
   res.send(markup);
